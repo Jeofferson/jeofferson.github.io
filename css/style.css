@@ -155,7 +155,8 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5); }
+    /* My Change */
+    background: rgba(0, 0, 0, 1); }
   .site-hero h1 {
     font-weight: 200;
     margin-bottom: 20px;
