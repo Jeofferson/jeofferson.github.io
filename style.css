@@ -1,0 +1,394 @@
+body {
+  overflow-x: hidden;
+  background: #FFFFFF;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #86868B;
+}
+
+/* Navigation */
+.navbar {
+  background: rgba(0, 0, 0, .9)!important;
+}
+@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+  .navbar {
+    padding: .2rem;
+    background: rgba(0, 0, 0, .8)!important;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+}
+.navbar-brand img {
+  height: 1.2rem;
+}
+.navbar-nav {
+  margin: 0 auto;
+}
+.navbar-nav li {
+  padding-right: 3rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-size: .9rem;
+  color: #F5F5F7;
+  opacity: 0.8;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #F5F5F7;
+  opacity: 1;
+}
+
+/* Common Section Styles */
+.offset:before {
+  display: block;
+  content: "";
+  margin-top: -2rem;
+  height: 2rem;
+}
+.jumbotron {
+  margin-bottom: 1rem;
+  border-radius: 0;
+  background-color: #FBFBFD;
+}
+.not-jumbotron {
+  padding: 3rem 0;
+}
+.jumbotron.no-margin-bottom {
+  margin-bottom: 0;
+}
+h2.heading {
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #1D1D1F;
+}
+.heading-underline {
+  margin: 0 auto 1rem;
+  width: 3rem;
+  height: .2rem;
+  background-color: #2997ff; /* color-accent */
+}
+h2.heading2 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #1D1D1F;
+}
+h4.subheading {
+  margin-bottom: 2rem;
+}
+.heading-underline-2 {
+  margin: 0 auto 1rem;
+  width: 3rem;
+  height: .2rem;
+  background-color: #2997ff;
+}
+.home-inner {
+  background-image: url(images/landing_page.jpg);
+}
+.home-inner-fixed {
+  background-image: url(images/quote_bg.jpg);
+}
+.highlight { 
+  font-weight: 400;
+  color: #2997ff;
+}
+
+/* Landing Page */
+.caption {
+  position: absolute;
+  top: 28%;
+  width: 100%;
+  max-width: 100%;
+  color: white;
+  z-index: 1;
+}
+.caption .title {
+  padding-bottom: 2rem;
+}
+.caption .title h1 {
+  margin-bottom: 0;
+  font-size: 3.8rem;
+  font-weight: 700;
+  text-shadow: .1rem .1rem .8rem black;
+}
+.caption .subtitle {
+  padding-bottom: 3.2rem;
+}
+.caption .subtitle h5 {
+  margin-bottom: 0.5rem;
+  font-style: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+}
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+}
+
+/* About */
+.about .image img {
+  border-radius: 50%;
+  width: 100%;
+}
+.about .description {
+  padding-left: 3rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Projects */
+.projects {
+  padding: 1rem 0.4rem;
+}
+.project {
+  padding: 1rem 0.4rem;
+}
+.projects img {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.project h4 {
+  font-weight: 700;
+  color: #1D1D1F;
+}
+.project h4 i {
+  margin-right: .5rem;
+  color: #2997ff;
+}
+.project .date i {
+  margin-right: .5rem;
+}
+
+/* Technologies */
+.technology i {
+  margin-bottom: 1rem;
+  color: #1D1D1F;
+}
+.technology h5 {
+  margin-bottom: 1rem;
+}
+.technology h5.technology-title {
+  font-weight: 700;
+  color: #1D1D1F;
+}
+
+/* Resume */
+.resume {
+  padding: 3rem;
+  background: white;
+}
+.resume-category {
+  margin-top: 3rem;
+}
+.resume-category h4 {
+  font-weight: 400;
+  color: #1D1D1F;
+}
+.resume-item {
+  box-shadow: 0 0 .1rem rgba(0, 0, 0, .3);
+  padding: 3rem;
+}
+.resume-item.offset {
+  margin-bottom: 1rem;
+}
+.resume-item .date {
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+.resume-item .date i {
+  margin-right: .5rem;
+}
+.resume-item h4 {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  color: #1D1D1F;
+}
+.resume-item h5 {
+  font-weight: 300;
+}
+
+/* Quote */
+.quote {
+  position: relative;
+}
+.screen-dark {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.quote-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.quote-text h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: .1rem .1rem .8rem black;
+}
+.quote-text h1 i {
+  position: relative;
+  right: 1rem;
+  bottom: 1.5rem;
+  font-size: 2.3rem;
+}
+
+/* Talks */
+.talk {
+  margin-bottom: 1rem;
+  padding: 0;
+  height: 20rem;
+}
+.talk .image {
+  padding: 0;
+  height: 100%;
+}
+.talk img {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.talk .details {
+  padding: 2rem;
+  height: 100%;
+  background: #FBFBFD;
+}
+.talk h4 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #1D1D1F;
+}
+.talk .date {
+  margin-bottom: 1rem;
+}
+.talk .date i {
+  margin-right: .5rem;
+}
+.talk .description {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Competitions */
+.competition {
+  margin-bottom: 1rem;
+  padding: 0 0.4rem;
+}
+.competition .image {
+  height: 20rem;
+}
+.competition img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.competition .details {
+  padding: 2rem;
+  background: #FBFBFD;
+}
+.competition h4 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #1D1D1F;
+}
+.competition .date {
+  margin-bottom: 1rem;
+}
+.competition .date i {
+  margin-right: .5rem;
+}
+.competition .description {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Awards */
+.award {
+  margin-bottom: 1rem;
+  padding: 0 0.4rem;
+}
+.award .image {
+  height: 13.3rem;
+}
+.award img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.award .details {
+  padding: 1.3rem;
+  background: #FBFBFD;
+}
+.award h5 {
+  margin-bottom: .6rem;
+  font-weight: 700;
+  color: #1D1D1F;
+}
+.award .date {
+  margin-bottom: .6rem;
+}
+.award .date i {
+  margin-right: .5rem;
+}
+.award .description {
+  font-weight: 300;
+}
+
+/* Footer */
+#footer .jumbotron {
+  background: #F5F5F7;
+}
+.footer h5 {
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+.footer h5.contact-platform-title {
+  font-weight: 400;
+  color: #1D1D1F;
+}
+.footer h5 a {
+  color: #86868B;
+}
+.footer h5 a:hover {
+  text-decoration: underline;
+  color: #1D1D1F;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 767px) {
+.talk {
+  height: auto;
+}
+}
+/* Border */
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+
+
