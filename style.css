@@ -360,7 +360,7 @@ h4.subheading {
 
 
 /* Media Queries */
-@media (max-width: 1199px) {
+/*@media (max-width: 1199px) {
 body {
   background: red;
 }
@@ -376,25 +376,25 @@ body {
 .talk {
   height: auto;
 }
-}
+}*/
 
 @media (max-width: 767px) {
-body {
+/*body {
   background: yellow;
-}
+}*/
 .talk {
   height: auto;
 }
 }
 
-@media (max-width: 575px) {
+/*@media (max-width: 575px) {
 body {
   background: green;
 }
 .talk {
   height: auto;
 }
-}
+}*/
 /* Border */
 
 
