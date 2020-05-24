@@ -81,7 +81,7 @@ h4.subheading {
   background-color: #2997ff;
 }
 .home-inner {
-  background-image: url(images/landing_page.jpg);
+  background-image: url(images/talk0.jpg);
 }
 .home-inner-fixed {
   background-image: url(images/quote_bg.jpg);
@@ -360,7 +360,37 @@ h4.subheading {
 
 
 /* Media Queries */
+@media (max-width: 1199px) {
+body {
+  background: red;
+}
+.talk {
+  height: auto;
+}
+}
+
+@media (max-width: 991px) {
+body {
+  background: orange;
+}
+.talk {
+  height: auto;
+}
+}
+
 @media (max-width: 767px) {
+body {
+  background: yellow;
+}
+.talk {
+  height: auto;
+}
+}
+
+@media (max-width: 575px) {
+body {
+  background: green;
+}
 .talk {
   height: auto;
 }
@@ -389,6 +419,5 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
-
 
 
