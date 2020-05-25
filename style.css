@@ -173,6 +173,9 @@ h4.subheading {
 }
 
 /* Technologies */
+.technology {
+  margin-bottom: 1rem;
+}
 .technology i {
   margin-bottom: 1rem;
   color: #1D1D1F;
