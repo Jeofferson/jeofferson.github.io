@@ -121,24 +121,22 @@ h4.subheading {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  color: white;
-  z-index: 1;
 }
 .caption .title {
-  padding-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .caption .title h1 {
-  margin-bottom: 0;
   font-size: 3.8rem;
   font-weight: 700;
+  color: white;
   text-shadow: 0 0 1rem rgba(0, 0, 0, .9);
 }
 .caption .subtitle {
-  padding-bottom: 3.2rem;
+  margin-bottom: 4.8rem;
 }
 .caption .subtitle h5 {
-  margin-bottom: 0.5rem;
-  font-style: 2rem;
+  font-size: 1.3rem;
+  color: white;
   text-shadow: 0 0 1rem rgba(0, 0, 0, .9);
 }
 .btn-lg {
@@ -386,33 +384,111 @@ h4.subheading {
 /*body {
   background: red;
 }*/
+.caption .title {
+  margin-bottom: 2.6rem;
 }
+.caption .title h1 {
+  font-size: 3.4rem;
+}
+.caption .subtitle {
+  margin-bottom: 4.4rem;
+}
+.caption .subtitle h5 {
+  font-size: 1rem;
+}
+.btn-lg {
+  font-size: 1rem;
+}
+
+.about .description {
+  font-size: 1rem;
+}
+
+.quote-text h1 {
+  font-size: 3.4rem;
+}
+
+.talk .description {
+  font-size: 1rem;
+}
+
+.competition .description {
+  font-size: 1rem;
+}
+}
+
+
 
 /* lg */
 @media (max-width: 991px) {
 /*body {
   background: orange;
 }*/
+.caption .title {
+  margin-bottom: 2.2rem;
+}
+.caption .title h1 {
+  font-size: 3rem;
+}
+.caption .subtitle {
+  margin-bottom: 4rem;
+}
+
+.quote-text h1 {
+  font-size: 3rem;
+}
+
 .competition .image {
   height: auto;
 }
 }
+
+
 
 /* md */
 @media (max-width: 767px) {
 /*body {
   background: yellow;
 }*/
+.caption .title {
+  margin-bottom: 1.8rem;
+}
+.caption .title h1 {
+  font-size: 2.6rem;
+}
+.caption .subtitle {
+  margin-bottom: 3.6rem;
+}
+
+.quote-text h1 {
+  font-size: 2.6rem;
+}
+
 .award .image {
   height: auto;
 }
 }
+
+
 
 /* sm */
 @media (max-width: 575px) {
 /*body {
   background: green;
 }*/
+.caption .title {
+  margin-bottom: 1.4rem;
+}
+.caption .title h1 {
+  font-size: 2.2rem;
+}
+.caption .subtitle {
+  margin-bottom: 3.2rem;
+}
+
+.quote-text h1 {
+  font-size: 2.2rem;
+}
 }
 /* Border */
 
