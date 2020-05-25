@@ -146,6 +146,9 @@ h4.subheading {
   font-size: 1.1rem;
   text-shadow: 0 0 1rem rgba(0, 0, 0, .9);
 }
+.btn-lg:hover {
+  text-shadow: none;
+}
 
 /* About */
 .about .image img {
@@ -460,6 +463,27 @@ h4.subheading {
   margin-bottom: 3.6rem;
 }
 
+.about .image img {
+  width: 50%;
+}
+.about .description {
+  padding-left: inherit;
+}
+
+
+.resume {
+  padding: 2rem;
+}
+.experience {
+  margin-bottom: 2em;
+}
+.resume-category {
+  margin-top: 0;
+}
+.resume-item {
+  padding: 2rem;
+}
+
 .quote-text h1 {
   font-size: 2.6rem;
 }
@@ -484,6 +508,30 @@ h4.subheading {
 }
 .caption .subtitle {
   margin-bottom: 3.2rem;
+}
+
+.about .image img {
+  width: 75%;
+}
+
+#resume .jumbotron {
+  padding: 0;
+}
+.resume {
+  margin: 0;
+  padding: 1rem;
+}
+/*.experience {
+  margin-bottom: 1.5em;
+}*/
+.resume-item {
+  padding: 1rem;
+}
+.resume-item .date {
+  margin-bottom: .5rem;
+}
+.resume-item h4 {
+  margin-bottom: .5rem;
 }
 
 .quote-text h1 {
