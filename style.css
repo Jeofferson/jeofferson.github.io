@@ -92,6 +92,9 @@ h4.subheading {
 }
 
 /* Landing Page */
+#home {
+  position: relative;
+}
 #home .screen-dark {
   position: absolute;
   top: 0;
@@ -234,12 +237,6 @@ h4.subheading {
   font-weight: 700;
   color: white;
   text-shadow: 0 0 1rem rgba(0, 0, 0, .9);
-}
-.quote-text h1 i {
-  position: relative;
-  right: 1rem;
-  bottom: 1.5rem;
-  font-size: 2.3rem;
 }
 
 /* Talks */
