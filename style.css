@@ -521,18 +521,15 @@ h4.subheading {
   margin: 0;
   padding: 1rem;
 }
-/*.experience {
-  margin-bottom: 1.5em;
-}*/
 .resume-item {
   padding: 1rem;
 }
-.resume-item .date {
+/*.resume-item .date {
   margin-bottom: .5rem;
 }
 .resume-item h4 {
   margin-bottom: .5rem;
-}
+}*/
 
 .quote-text h1 {
   font-size: 2.2rem;
