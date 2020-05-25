@@ -31,6 +31,10 @@ body {
   color: #F5F5F7;
   opacity: 0.8;
 }
+.navbar-collapse {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #F5F5F7;
@@ -243,11 +247,11 @@ h4.subheading {
 .talk {
   margin-bottom: 1rem;
   padding: 0;
-  height: 20rem;
+  background: red;
 }
 .talk .image {
   padding: 0;
-  height: 100%;
+  height: auto;
 }
 .talk img {
   padding: 0;
@@ -257,7 +261,7 @@ h4.subheading {
 }
 .talk .details {
   padding: 2rem;
-  height: 100%;
+  height: auto;
   background: #FBFBFD;
 }
 .talk h4 {
@@ -364,41 +368,33 @@ h4.subheading {
 
 
 /* Media Queries */
-/*@media (max-width: 1199px) {
+/* xl */
+@media (max-width: 1199px) {
 body {
   background: red;
 }
-.talk {
-  height: auto;
-}
 }
 
+/* lg */
 @media (max-width: 991px) {
 body {
   background: orange;
 }
-.talk {
-  height: auto;
 }
-}*/
 
+/* md */
 @media (max-width: 767px) {
-/*body {
+body {
   background: yellow;
-}*/
-.talk {
-  height: auto;
 }
 }
 
-/*@media (max-width: 575px) {
+/* sm */
+@media (max-width: 575px) {
 body {
   background: green;
 }
-.talk {
-  height: auto;
 }
-}*/
 /* Border */
 
 
