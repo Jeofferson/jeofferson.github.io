@@ -250,7 +250,6 @@ h4.subheading {
 .talk {
   margin-bottom: 1rem;
   padding: 0;
-  background: red;
 }
 .talk .image {
   padding: 0;
@@ -373,30 +372,36 @@ h4.subheading {
 /* Media Queries */
 /* xl */
 @media (max-width: 1199px) {
-body {
+/*body {
   background: red;
-}
+}*/
 }
 
 /* lg */
 @media (max-width: 991px) {
-body {
+/*body {
   background: orange;
+}*/
+.competition .image {
+  height: auto;
 }
 }
 
 /* md */
 @media (max-width: 767px) {
-body {
+/*body {
   background: yellow;
+}*/
+.award .image {
+  height: auto;
 }
 }
 
 /* sm */
 @media (max-width: 575px) {
-body {
+/*body {
   background: green;
-}
+}*/
 }
 /* Border */
 
