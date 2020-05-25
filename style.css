@@ -92,11 +92,17 @@ h4.subheading {
 }
 
 /* Landing Page */
+#home .screen-dark {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .5);
+}
 .caption {
   position: absolute;
-  top: 28%;
-  width: 100%;
-  max-width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
   color: white;
   z-index: 1;
 }
@@ -107,7 +113,7 @@ h4.subheading {
   margin-bottom: 0;
   font-size: 3.8rem;
   font-weight: 700;
-  text-shadow: .1rem .1rem .8rem black;
+  text-shadow: 0 0 1rem rgba(0, 0, 0, .9);
 }
 .caption .subtitle {
   padding-bottom: 3.2rem;
@@ -115,13 +121,14 @@ h4.subheading {
 .caption .subtitle h5 {
   margin-bottom: 0.5rem;
   font-style: 2rem;
-  text-shadow: .1rem .1rem .5rem black;
+  text-shadow: 0 0 1rem rgba(0, 0, 0, .9);
 }
 .btn-lg {
   border-width: medium;
   border-radius: 0;
   padding: .6rem 1.3rem;
   font-size: 1.1rem;
+  text-shadow: 0 0 1rem rgba(0, 0, 0, .9);
 }
 
 /* About */
@@ -210,7 +217,7 @@ h4.subheading {
 .quote {
   position: relative;
 }
-.screen-dark {
+.quote .screen-dark {
   position: absolute;
   top: 0;
   width: 100%;
@@ -226,7 +233,7 @@ h4.subheading {
   font-size: 3.8rem;
   font-weight: 700;
   color: white;
-  text-shadow: .1rem .1rem .8rem black;
+  text-shadow: 0 0 1rem rgba(0, 0, 0, .9);
 }
 .quote-text h1 i {
   position: relative;
