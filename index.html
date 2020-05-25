@@ -23,7 +23,7 @@
   <!-- Start Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <button class="navbar-toggler" type="button" data-toggle=collapse data-target="#my-navbar">
-      <span class="navbar-toggler-icon"></span>
+      <i class="my-navbar-toggler-icon fas fa-grip-lines"></i>
     </button>
     <div class="collapse navbar-collapse" id="my-navbar">
       <ul class="navbar-nav ml-auto">
@@ -671,6 +671,18 @@
 
 </div>
 <!-- End Footer Section -->
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(document).click(function (event) {
+        var clickover = $(event.target);
+        var _opened = $(".navbar-collapse").hasClass("navbar-collapse in");
+        if (_opened === true && !clickover.hasClass("navbar-toggle")) {
+            $("button.navbar-toggle").click();
+        }
+    });
+  });
+</script>
 
 <!-- Script Source Files -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
