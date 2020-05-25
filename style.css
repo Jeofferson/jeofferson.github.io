@@ -168,7 +168,7 @@ h4.subheading {
 .project {
   padding: 1rem 0.4rem;
 }
-.projects img {
+.project img {
   margin-bottom: 1rem;
   width: 100%;
 }
@@ -514,6 +514,16 @@ h4.subheading {
   width: 75%;
 }
 
+.projects {
+  padding: 1rem 0;
+}
+.project {
+  padding: 1rem 0;
+}
+.project .details {
+  padding: 0 .8rem;
+}
+
 #resume .jumbotron {
   padding: 0;
 }
@@ -524,15 +534,21 @@ h4.subheading {
 .resume-item {
   padding: 1rem;
 }
-/*.resume-item .date {
-  margin-bottom: .5rem;
-}
-.resume-item h4 {
-  margin-bottom: .5rem;
-}*/
 
 .quote-text h1 {
   font-size: 2.2rem;
+}
+
+.talk .details {
+  padding: 1rem;
+}
+
+.competition .details {
+  padding: 1rem;
+}
+
+.award .details {
+  padding: 1rem;
 }
 }
 /* Border */
