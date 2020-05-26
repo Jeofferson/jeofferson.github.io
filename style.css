@@ -74,7 +74,7 @@ h2.heading {
   height: .2rem;
   background-color: #2997ff; /* color-accent */
 }
-h2.heading2 {
+/*h2.heading2 {
   margin-bottom: 1rem;
   font-weight: 700;
   color: #1D1D1F;
@@ -87,7 +87,7 @@ h4.subheading {
   width: 3rem;
   height: .2rem;
   background-color: #2997ff;
-}
+}*/
 .home-inner {
   background-image: url(images/landing_page_2.jpg);
 }
@@ -256,11 +256,15 @@ h4.subheading {
   transform: translateY(-50%);
 }
 .quote-text h1 {
+  margin: 0 20%;
   font-size: 3.8rem;
   font-weight: 700;
   color: white;
   text-shadow: 0 0 1rem rgba(0, 0, 0, .9);
 }
+/*.quote-text h1.offset {
+  margin-bottom: 2rem;
+}*/
 
 /* Talks */
 .talk {
@@ -375,6 +379,10 @@ h4.subheading {
   font-weight: 400;
   color: #1D1D1F;
 }
+.footer div.contact-platform div {
+  margin: 0;
+  padding: 0;
+}
 .footer h5 a {
   color: #86868B;
 }
@@ -389,7 +397,7 @@ h4.subheading {
 /* xl */
 @media (max-width: 1199px) {
 /*body {
-  background: red;
+  background: green;
 }*/
 .caption .title {
   margin-bottom: 2.6rem;
@@ -412,6 +420,7 @@ h4.subheading {
 }
 
 .quote-text h1 {
+  margin: 0 16%;
   font-size: 3.4rem;
 }
 
@@ -429,7 +438,7 @@ h4.subheading {
 /* lg */
 @media (max-width: 991px) {
 /*body {
-  background: orange;
+  background: yellow;
 }*/
 .caption .title {
   margin-bottom: 2.2rem;
@@ -442,6 +451,7 @@ h4.subheading {
 }
 
 .quote-text h1 {
+  margin: 0 12%;
   font-size: 3rem;
 }
 
@@ -455,7 +465,7 @@ h4.subheading {
 /* md */
 @media (max-width: 767px) {
 /*body {
-  background: yellow;
+  background: orange;
 }*/
 .caption .title {
   margin-bottom: 1.8rem;
@@ -489,6 +499,7 @@ h4.subheading {
 }
 
 .quote-text h1 {
+  margin: 0 8%;
   font-size: 2.6rem;
 }
 
@@ -502,7 +513,7 @@ h4.subheading {
 /* sm */
 @media (max-width: 575px) {
 /*body {
-  background: green;
+  background: red;
 }*/
 .caption .title {
   margin-bottom: 1.4rem;
@@ -540,6 +551,7 @@ h4.subheading {
 }
 
 .quote-text h1 {
+  margin: 0 4%;
   font-size: 2.2rem;
 }
 
