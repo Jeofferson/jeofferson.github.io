@@ -57,8 +57,9 @@ body {
 .navbar-toggler.collapsed .bottom-bar {
   transform: rotate(0);
 }
-.navbar-brand img {
-  height: 1.2rem;
+.navbar-collapse {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .navbar-nav {
   margin: 0 auto;
@@ -67,18 +68,18 @@ body {
   padding-right: 3rem;
 }
 .navbar-dark .navbar-nav .nav-link {
+  width: 100%;
   font-size: .9rem;
   color: #F5F5F7;
-  opacity: 0.8;
-}
-.navbar-collapse {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  opacity: .8;
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #F5F5F7;
   opacity: 1;
+}
+.navbar-brand img {
+  height: 1.2rem;
 }
 
 /* Common Section Styles */
@@ -476,6 +477,9 @@ h4.subheading {
 /*body {
   background: yellow;
 }*/
+.navbar-nav li {
+  padding-right: 0;
+}
 .navbar-brand img {
   height: 1.4rem;
 }

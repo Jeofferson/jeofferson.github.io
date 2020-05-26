@@ -2,12 +2,12 @@ $(document).ready(function () {
 
 	$(document).click(function (event) {
 
-		var navbarCollapse = $(".navbar-collapse");
-
 		var clickover = $(event.target);
+
+		var navbarCollapse = $(".navbar-collapse");
 		var isOpened = !navbarCollapse.hasClass("navbar-collapse in");
 
-		if (isOpened && !clickover.hasClass("navbar-toggler")) {
+		if (isOpened && clickover.parents("bg-dark")) {
 
 			navbarCollapse.collapse("hide");
 
