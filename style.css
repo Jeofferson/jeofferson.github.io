@@ -439,6 +439,16 @@ h4.subheading {
 /*body {
   background: green;
 }*/
+.navbar-nav li {
+  padding-right: 0;
+}
+.navbar-brand img {
+  height: 1.4rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 1.1rem;
+}
+
 .caption .title {
   margin-bottom: 2.6rem;
 }
@@ -480,16 +490,6 @@ h4.subheading {
 /*body {
   background: yellow;
 }*/
-.navbar-nav li {
-  padding-right: 0;
-}
-.navbar-brand img {
-  height: 1.4rem;
-}
-.navbar-dark .navbar-nav .nav-link {
-  font-size: 1.1rem;
-}
-
 .caption .title {
   margin-bottom: 2.2rem;
 }
