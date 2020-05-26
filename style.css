@@ -415,7 +415,7 @@ h4.subheading {
   padding: 0 0.4rem;
 }
 .participation .image {
-  height: 10rem; /* changing x4 */
+  height: 13.3rem; /* changing x3 */
 }
 .participation img {
   width: 100%;
@@ -423,15 +423,15 @@ h4.subheading {
   object-fit: cover;
 }
 .participation .details {
-  padding: 1rem; /* changing x4 */
+  padding: 1.3rem; /* changing x3 */
   background: #FBFBFD;
 }
-.participation h6 {
+.participation h5 {
   font-weight: 700;
   color: #1D1D1F;
 }
 .participation .date {
-  margin-bottom: 0;
+  margin-bottom: 0; /* changing x3 */
 }
 .participation .date i {
   margin-right: .5rem;
@@ -649,6 +649,9 @@ h4.subheading {
 
 .participation .image {
   height: auto;
+}
+.participation .details {
+  padding: 1rem;
 }
 }
 /* Border */
