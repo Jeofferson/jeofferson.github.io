@@ -17,9 +17,45 @@ body {
     backdrop-filter: saturate(180%) blur(20px);
   }
 }
-.navbar .my-navbar-toggler-icon {
-  padding: .2rem;
-  font-size: 1.6rem;
+.navbar-toggler {
+  border: none;
+  height: 2.7rem;
+  background: transparent !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.icon-bar {
+  width: 22px; 
+  height: 2px;
+  background-color: #B6B6B6;
+  display: block;
+  transition: all 0.2s;
+  margin-top: 4px;
+}
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar {
+  margin: 0;
+  height: .1rem;
+}
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
 }
 .navbar-brand img {
   height: 1.2rem;
@@ -440,6 +476,13 @@ h4.subheading {
 /*body {
   background: yellow;
 }*/
+.navbar-brand img {
+  height: 1.4rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 1.1rem;
+}
+
 .caption .title {
   margin-bottom: 2.2rem;
 }
