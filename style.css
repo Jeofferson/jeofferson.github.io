@@ -224,8 +224,14 @@ h4.subheading {
   margin-right: .5rem;
   color: #2997ff;
 }
-.project .details i {
+.project .meta-data {
+  margin-bottom: .5rem;
+}
+.project h6 i {
   margin-right: .5rem;
+}
+.project .dot {
+  margin: 0 .5rem;
 }
 
 /* Technologies */
@@ -296,15 +302,15 @@ h4.subheading {
   transform: translateY(-50%);
 }
 .quote-text h1 {
-  margin: 0 20%;
+  margin: 0 10%;
   font-size: 3.8rem;
-  font-weight: 700;
+  font-weight: 400;
   color: white;
   text-shadow: 0 0 1rem rgba(0, 0, 0, .9);
 }
-/*.quote-text h1.offset {
-  margin-bottom: 2rem;
-}*/
+.quote-text h1 .bold {
+  font-weight: 700;
+}
 
 /* Talks */
 .talk {
@@ -464,11 +470,8 @@ h4.subheading {
 
 
 /* Media Queries */
-/* xl */
+/* xl | green */
 @media (max-width: 1199px) {
-/*body {
-  background: green;
-}*/
 .navbar-nav li {
   padding-right: 0;
 }
@@ -500,7 +503,6 @@ h4.subheading {
 }
 
 .quote-text h1 {
-  margin: 0 16%;
   font-size: 3.4rem;
 }
 
@@ -515,11 +517,8 @@ h4.subheading {
 
 
 
-/* lg */
+/* lg | yellow */
 @media (max-width: 991px) {
-/*body {
-  background: yellow;
-}*/
 .caption .title {
   margin-bottom: 2.2rem;
 }
@@ -531,7 +530,6 @@ h4.subheading {
 }
 
 .quote-text h1 {
-  margin: 0 12%;
   font-size: 3rem;
 }
 
@@ -542,11 +540,8 @@ h4.subheading {
 
 
 
-/* md */
+/* md | orange */
 @media (max-width: 767px) {
-/*body {
-  background: orange;
-}*/
 .caption .title {
   margin-bottom: 1.8rem;
 }
@@ -564,6 +559,9 @@ h4.subheading {
   padding-left: inherit;
 }
 
+.project .meta-data {
+  margin-bottom: 0;
+}
 
 .resume {
   padding: 2rem;
@@ -579,7 +577,6 @@ h4.subheading {
 }
 
 .quote-text h1 {
-  margin: 0 8%;
   font-size: 2.6rem;
 }
 
@@ -590,11 +587,8 @@ h4.subheading {
 
 
 
-/* sm */
+/* sm | red */
 @media (max-width: 575px) {
-/*body {
-  background: red;
-}*/
 .caption .title {
   margin-bottom: 1.4rem;
 }
@@ -631,7 +625,6 @@ h4.subheading {
 }
 
 .quote-text h1 {
-  margin: 0 4%;
   font-size: 2.2rem;
 }
 
@@ -654,6 +647,33 @@ h4.subheading {
   padding: 1rem;
 }
 }
+
+
+
+
+/*@media (max-width: 1199px) {
+body {
+  background: green;
+}
+}
+
+@media (max-width: 991px) {
+body {
+  background: yellow;
+}
+}
+
+@media (max-width: 767px) {
+body {
+  background: orange;
+}
+}
+
+@media (max-width: 575px) {
+body {
+  background: red;
+}
+}*/
 /* Border */
 
 
