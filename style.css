@@ -320,11 +320,17 @@ h4.subheading {
   padding: 0;
   height: auto;
 }
+.talk .image.framed {
+  background: black;
+}
 .talk img {
   padding: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.talk .framed img {
+  object-fit: contain;
 }
 .talk .details {
   padding: 2rem;
@@ -356,10 +362,16 @@ h4.subheading {
 .competition .image {
   height: 20rem; /* changing x2 */
 }
+.competition .image.framed {
+  background: black;
+}
 .competition img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.competition .framed img {
+  object-fit: contain;
 }
 .competition .details {
   padding: 2rem; /* changing x2 */
@@ -390,10 +402,16 @@ h4.subheading {
 .award .image {
   height: 13.3rem; /* changing x3 */
 }
+.award .image.framed {
+  background: black;
+}
 .award img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.award .framed img {
+  object-fit: contain;
 }
 .award .details {
   padding: 1.3rem; /* changing x3 */
@@ -422,10 +440,16 @@ h4.subheading {
 .participation .image {
   height: 13.3rem; /* changing x3 */
 }
+.participation .image.framed {
+  background: black;
+}
 .participation img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.participation .framed img {
+  object-fit: contain;
 }
 .participation .details {
   padding: 1.3rem; /* changing x3 */
