@@ -382,6 +382,9 @@ h4.subheading {
   font-weight: 700;
   color: #1D1D1F;
 }
+.competition h4 span {
+  font-weight: 300;
+}
 .competition .date {
   margin-bottom: 1rem; /* changing x2 */
 }
@@ -420,6 +423,9 @@ h4.subheading {
 .award h5 {
   font-weight: 700;
   color: #1D1D1F;
+}
+.award h5 span {
+  font-weight: 300;
 }
 .award .date {
   margin-bottom: .7rem; /* changing x3 */
