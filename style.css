@@ -105,8 +105,11 @@ body {
 }
 h2.heading {
   margin-bottom: 2rem;
-  font-weight: 700;
+  font-weight: 300;
   color: #1D1D1F;
+}
+h2.heading span {
+  font-weight: 700;
 }
 .heading-underline {
   margin: 0 auto 1rem;
@@ -383,7 +386,8 @@ h4.subheading {
   color: #1D1D1F;
 }
 .competition h4 span {
-  font-weight: 300;
+  /*font-weight: 300;*/
+  color: #2997ff;
 }
 .competition .date {
   margin-bottom: 1rem; /* changing x2 */
@@ -425,7 +429,8 @@ h4.subheading {
   color: #1D1D1F;
 }
 .award h5 span {
-  font-weight: 300;
+  /*font-weight: 300;*/
+  color: #2997ff;
 }
 .award .date {
   margin-bottom: .7rem; /* changing x3 */
