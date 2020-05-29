@@ -10,12 +10,12 @@ body {
 
 /* Navigation */
 .navbar {
-  background: rgba(0, 0, 0, .9)!important;
+  background: rgba(0, 0, 0, .9) !important;
 }
 @supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
   .navbar {
     padding: .2rem;
-    background: rgba(0, 0, 0, .8)!important;
+    background: rgba(0, 0, 0, .8) !important;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
   }
@@ -681,7 +681,6 @@ h4.subheading {
   padding: 1rem;
 }
 }
-
 
 
 
