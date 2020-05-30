@@ -67,7 +67,7 @@ body {
 .navbar-nav {
   margin: 0 auto;
 }
-.navbar-nav li {
+.navbar-nav li.offset {
   padding-right: 3rem;
 }
 .navbar-dark .navbar-nav .nav-link {
