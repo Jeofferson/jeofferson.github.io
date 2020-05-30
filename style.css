@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+  /*scroll-behavior: smooth;*/
 }
 body {
   overflow-x: hidden;
@@ -516,6 +516,9 @@ h4.subheading {
 }
 .navbar-dark .navbar-nav .nav-link {
   font-size: 1.1rem;
+}
+.navbar-nav li.offset {
+  padding-right: 0;
 }
 
 .caption .title {
