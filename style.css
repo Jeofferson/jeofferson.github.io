@@ -470,6 +470,9 @@ h4.subheading {
   font-weight: 700;
   color: #1D1D1F;
 }
+.event p span {
+  color: #2997ff;
+}
 .event .date {
   margin-bottom: .5rem; /* changing x3 */
 }
