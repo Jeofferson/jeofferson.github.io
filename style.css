@@ -443,40 +443,40 @@ h4.subheading {
   font-weight: 300;
 }
 
-/* Participations */
-.participation {
+/* Events */
+.event {
   margin-bottom: 1rem;
   padding: 0 0.4rem;
 }
-.participation .image {
+.event .image {
   height: 10rem; /* changing x3 */
 }
-.participation .image.framed {
+.event .image.framed {
   background: black;
 }
-.participation img {
+.event img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.participation .framed img {
+.event .framed img {
   object-fit: contain;
 }
-.participation .details {
+.event .details {
   padding: 1rem; /* changing x3 */
   background: #FBFBFD;
 }
-.participation h6 {
+.event h6 {
   font-weight: 700;
   color: #1D1D1F;
 }
-.participation .date {
+.event .date {
   margin-bottom: .5rem; /* changing x3 */
 }
-.participation .date i {
+.event .date i {
   margin-right: .5rem;
 }
-.participation .description {
+.event .description {
   margin-bottom: 0;
   font-weight: 300;
 }
@@ -682,7 +682,7 @@ h4.subheading {
   padding: 1rem;
 }
 
-.participation .image {
+.event .image {
   height: auto;
 }
 }
