@@ -201,8 +201,10 @@ h4.subheading {
 
 /* About */
 .about .image img {
-  border-radius: 50%;
   width: 100%;
+}
+.about .image img.self {
+  border-radius: 50%;
 }
 .about .description {
   padding-left: 3rem;
