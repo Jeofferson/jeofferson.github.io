@@ -203,7 +203,7 @@ h4.subheading {
 .about .image img {
   width: 100%;
 }
-.about .image img.self {
+.about .image img.me {
   border-radius: 50%;
 }
 .about .description {
