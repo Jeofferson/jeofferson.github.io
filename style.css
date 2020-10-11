@@ -223,6 +223,7 @@ h4.subheading {
   position: relative;
   display: inline-block;
   margin-bottom: 1rem;
+  width: 100%;
 }
 .project img {
   width: 100%;
