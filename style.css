@@ -630,7 +630,7 @@ h4.subheading {
   margin-bottom: 3.6rem;
 }
 
-.about .image img {
+.about .image a {
   width: 50%;
 }
 .about .description {
@@ -677,7 +677,7 @@ h4.subheading {
   margin-bottom: 3.2rem;
 }
 
-.about .image img {
+.about .image a {
   width: 75%;
 }
 
