@@ -309,7 +309,7 @@ h4.subheading {
   box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.3);
   padding: 3rem;
 }
-.resume-item.offset {
+.resume-item.offset, .resume-item .offset {
   margin-bottom: 1rem;
 }
 .resume-item .date {
@@ -326,6 +326,9 @@ h4.subheading {
 }
 .resume-item h5 {
   font-weight: 300;
+}
+.resume-item .resume-award {
+  padding: 1rem;
 }
 
 /* Quote */
