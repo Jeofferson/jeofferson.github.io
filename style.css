@@ -389,12 +389,13 @@ h4.subheading {
   color: #1d1d1f;
 }
 .talk .date {
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 .talk .date i {
   margin-right: 0.5rem;
 }
 .talk .description {
+  margin-top: 1rem;
   margin-bottom: 0;
   font-size: 1.2rem;
   font-weight: 300;
@@ -432,12 +433,13 @@ h4.subheading {
   color: #2997ff;
 }
 .competition .date {
-  margin-bottom: 1rem; /* changing x2 */
+  margin-bottom: 0;
 }
 .competition .date i {
   margin-right: 0.5rem;
 }
 .competition .description {
+  margin-top: 1rem; /* changing x2 */
   margin-bottom: 0;
   font-size: 1.2rem; /* changing x2 */
   font-weight: 300;
@@ -474,12 +476,13 @@ h4.subheading {
   color: #2997ff;
 }
 .award .date {
-  margin-bottom: 0.7rem; /* changing x3 */
+  margin-bottom: 0;
 }
 .award .date i {
   margin-right: 0.5rem;
 }
 .award .description {
+  margin-top: 0.7rem; /* changing x3 */
   margin-bottom: 0;
   font-weight: 300;
 }
@@ -515,12 +518,13 @@ h4.subheading {
   color: #2997ff;
 }
 .event .date {
-  margin-bottom: 0.5rem; /* changing x3 */
+  margin-bottom: 0;
 }
 .event .date i {
   margin-right: 0.5rem;
 }
 .event .description {
+  margin-top: 0.5rem; /* changing x3 */
   margin-bottom: 0;
   font-weight: 300;
 }
