@@ -217,6 +217,7 @@ h4.subheading {
 }
 .about .description a {
   font-weight: 400;
+  text-decoration: underline;
   color: #1d1d1f;
 }
 
